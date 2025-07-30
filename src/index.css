@@ -3,3 +3,7 @@
 @tailwind utilities;
 @import "tailwindcss";
 @import "react-datepicker/dist/react-datepicker.css";
+
+body {
+    @apply bg-white text-black dark:bg-gray-900 dark:text-white;
+}
